@@ -1,0 +1,56 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+.vscode/
+
+# Flutter / Dart / Pub
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+build/
+coverage/
+
+# Generated docs
+doc/api/
+
+# Package lockfile
+# Packages SHOULD NOT commit pubspec.lock
+pubspec.lock
+
+# MacOS
+macos/Flutter/ephemeral/
+
+# Linux
+linux/flutter/ephemeral/
+
+# Windows
+windows/flutter/ephemeral/
+
+# iOS
+ios/Flutter/ephemeral/
+ios/Flutter/flutter_export_environment.sh
+
+# Android
+android/.gradle/
+android/local.properties
+
+# FVM (if you later use it)
+.fvm/
