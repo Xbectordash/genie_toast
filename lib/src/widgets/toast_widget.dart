@@ -44,7 +44,7 @@ class _ToastWidgetState extends State<ToastWidget>
   Color get backgroundColor {
     switch (widget.type) {
       case ToastType.success:
-        return Colors.green;
+        return Colors.pink;
 
       case ToastType.error:
         return Colors.red;
