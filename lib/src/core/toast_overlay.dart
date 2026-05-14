@@ -16,9 +16,6 @@ class ToastOverlay {
     entry = OverlayEntry(
       builder: (_) {
         return Positioned(
-          left: 20,
-          right: 20,
-          bottom: 100,
           child: ToastWidget(
             message: message,
             type: type,
